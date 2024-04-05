@@ -1,0 +1,68 @@
+/* Reset some Bootstrap styles */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+    background-color: #e9ecef; /* Cor de fundo da página */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #495057;
+}
+
+header {
+    background-color: #007bff; /* Cor de fundo do cabeçalho */
+    color: #fff;
+}
+
+/* Estilos do formulário */
+.form-control {
+    background-color: #fff; /* Cor de fundo dos campos de texto */
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057; /* Cor do texto dentro dos campos */
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* Estilos do botão */
+.btn-outline-primary {
+    color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+/* Estilos da tabela */
+.table {
+    margin-top: 1rem;
+    background-color: #fff;
+}
+
+.table td {
+    padding: 0.5rem;
+    vertical-align: middle;
+    border-top: 1px solid #dee2e6;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .display-3 {
+        font-size: 1.75rem;
+    }
+}
